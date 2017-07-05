@@ -1,0 +1,106 @@
+body{
+    font: 15px/1.7rem "Lora", serif;
+}
+
+.underlined-title {
+	text-align: center;
+	padding: 30px;
+    background: #000;
+    margin-bottom: 50px;
+}
+.underlined-title h1 {
+	color: #fff;
+	margin: 0;
+}
+
+.underlined-title h2 {
+	font-size: 32px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+}
+
+.underlined-title hr {
+	width: 10%;
+    padding: 0px;
+	border-width: 3px;
+	border-color: #16a085 !important;
+}
+.content-block {
+	width: 100%;
+	padding: 0px 0 60px 0;
+	background-color: #ffffff;
+}
+
+#menu{
+    background-color: #ab2123;
+}
+.nav{
+    max-width: 960px;
+    margin: 0 auto;
+    min-height: 40px;
+}
+#menu .nav li{
+    min-height: 40px;
+    display: inline;
+}
+.nav li a{
+    width: 25%;
+    float: left;
+    height: 30px;
+    line-height: 20px;
+    padding: 10px 0 0 0;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+}
+.nav li a:hover{
+    background-color: #00334d;
+}
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 30px;
+    background:rgba(255,255,255,0.7);
+}
+.col-3{
+    width: 22.5%;
+    display: inline-table;
+    margin-right: 2.5%; 
+}
+.row .col-3:last-of-type{
+    margin-right: 0px;
+}
+.img-responsive{
+    max-width: 100%;
+    height: auto;
+}
+.bg{
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-1{
+    background-image: url(images/bg1.jpg);
+}
+.bg-2{
+    background-image: url(images/bg2.jpg);
+}
+.bg-3{
+    background-image: url(images/bg3.jpg);
+}
+
+
+
+
+
+
+
+
+
+.minha-classe{
+    margin: 10px;
+    border-width: 30px 10px;
+    padding: 30px 10px 50px 10px;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Two Shapes - Sistema Acadêmico</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/estilos.css" />
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <div class="d-flex row">
+            <nav class="col-sm-3 col-md-3 bg-faded sidebar">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" alt="New Cube" class="brand-img">
+                </a>
+                <ul class="nav nav-pills flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">
+                            <i class="fa fa-home"></i>
+                             Início 
+                            </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa fa-user-plus"></i>
+                             Primeiro Acesso 
+                            </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa fa-question"></i>
+                             Sobre o Portal 
+                            </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa fa-support"></i>
+                             Ajuda 
+                            </a>
+                    </li>
+                </ul>
+
+            </nav>
+            <div class="col-sm-8 col-md-7 main">
+                <div class="first-line text-right">
+                    <!--<a class="btn btn-outline-primary btn-sm"><i class="fa fa-star"></i> Definir como Página Inicial</a>-->
+                </div>
+
+                <div class="entry-title text-center clearfix">
+                    <h1 class="h1">
+                        Cadastre-se
+                    </h1>
+                    <hr />
+
+                </div>
+
+                <form>
+                    <div class="form-group row">
+                        <label for="nome" class="col-2 col-form-label">Nome:</label>
+                        <div class="col-10">
+                            <input type="text" class="form-control" id="nome" placeholder="Seu Nome">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="exampleInputEmail1" class="col-2 col-form-label">Email:</label>
+                        <div class="col-10">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu e-mail">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="curso" class="col-2 col-form-label">Curso:</label>
+                        <div class="col-10">
+                            <select name="curs" id="curso" class="form-control">
+                                <option value="0">--SELECIONE--</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="exampleInputPassword1" class="col-2 col-form-label">Senha:</label>
+                        <div class="col-10">
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Sua Senha">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="exampleInputPassword1" class="col-2 col-form-label">Confirmar:</label>
+                        <div class="col-10">
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirme sua Senha">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-sm-2"></div>
+                        <div class="col-sm-10">
+                            <button class="btn btn-primary">Cadastrar</button>
+                            <a class="" href="index.html">Voltar ao Login</a>
+                        </div>
+                    </div>
+                </form>
+                <footer class="col-sm-12 p-2 ">
+                    <p class="text-center">
+                        &copy; 2017 - New Shape - Sistema Acadêmico
+                    </p>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+body{
+    font: 16px/1.6 "Open Sans", Arial, Helvetica, sans-serif;
+}
+#pagina{
+    max-width: 1000px;
+    margin: 20px auto;
+    padding-bottom: 20px;
+}
+.texto-centro{
+    text-align: center;
+}
+p.texto-centro i{
+    text-decoration: underline;
+}
+h2{
+    padding: 4px 20px;
+    background-color: #336f32;
+    color: #fff;
+}
+.indent{
+    text-indent: 50px;
+}
+p em{
+    font-family: Courier New, Courier, monospace
+}

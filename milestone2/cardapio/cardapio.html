@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cardápio</title>
+    <link rel="stylesheet" href="../bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+
+                <table id="cardapio" class="table">
+                    <thead>
+                        <tr>
+                            <th>Especificação</th>
+                            <th>Código</th>
+                            <th>Preço</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="100">
+                            <td>Cachorro Quente</td>
+                            <td>100</td>
+                            <td class="preco">1,20</td>
+                        </tr>
+                        <tr id="101">
+                            <td>Bauru Simples</td>
+                            <td>101</td>
+                            <td class="preco">1,30</td>
+                        </tr>
+                        <tr id="102">
+                            <td>Bauru com Ovo</td>
+                            <td>102</td>
+                            <td class="preco">1,50</td>
+                        </tr>
+                        <tr id="103">
+                            <td>Hambúrguer</td>
+                            <td>103</td>
+                            <td class="preco">1,20</td>
+                        </tr>
+                        <tr id="104">
+                            <td>CheeseBurguer</td>
+                            <td>104</td>
+                            <td class="preco">1,30</td>
+                        </tr>
+                        <tr id="105">
+                            <td>Refrigerante</td>
+                            <td>105</td>
+                            <td class="preco">1,00</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="form-inline">
+                    <div class="form-group">
+                        <label for="codigo">Pedido</label>
+                        <select name="item" id="item" class="form-control">
+                            <option value="100">Cachorro Quente</option>
+                            <option value="101">Bauru Simples</option>
+                            <option value="102">Bauru com Ovo</option>
+                            <option value="103">Hambúrguer</option>
+                            <option value="104">CheeseBurguer</option>
+                            <option value="105">Refrigerante</option>
+                        </select>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="quantidade">Quantidade</label>
+                        <input type="number" name="quantidade" id="quantidade" min="0" value="0" />
+                    </div>
+                    <div class="form-group"><button id="btn-calcular" class="btn btn-primary">Calcular</button></div>
+                    <p class="info">Valor do Lanche (R$): <span id="valor">0,00</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="cardapio.js"></script>
+</body>
+
+</html>
